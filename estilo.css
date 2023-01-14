@@ -1,0 +1,243 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 10px 160px 10px 160px;
+    padding: 5px;
+    font-family: 'Bakbak One', cursive;
+    background: url(imagenes/playa.jpg) no-repeat;
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    min-height: 70px;
+    padding: 10px;
+    background-color: firebrick;
+    text-align: justify;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 70px;
+    margin-left: 10px;
+}
+
+nav{
+    font-family: 'Bakbak One', cursive;
+    font-weight: 500px;
+    padding-right: 10px;
+    color: white;
+}
+
+nav a{
+    font-family: 'Bakbak One', cursive;
+    font-weight: 500px;
+    font-weight: 600;
+    padding-right: 10px;
+    color: white;
+}
+
+.nav-link{
+    font-size: 25px;
+}
+
+nav a:hover{
+    color: black;
+}
+
+.imagen-correo{
+    height: 40px;
+    margin-left: 10px;
+}
+
+.imagen-celular{
+    height: 40px;
+    margin-left: 10px;
+}
+
+.imagen-ubicacion{
+    height: 40px;
+    margin-left: 10px;
+}
+
+
+.informacion{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside{
+    flex: 50px;
+    background-color: #23588a;
+    padding: 160px;
+}
+
+section{
+    flex: 70%;
+    background-color: #dadada;
+    padding: 20px;
+}
+
+.formulario {
+    background-color: rgb(197, 197, 197);
+    padding: 15px;
+    margin-bottom: 16px;
+    border: 2px solid #000000;
+    font-family: 'Bakbak One', cursive;
+    font-size: 18px;
+    margin-top: 5px;
+    border-radius: 10px;
+    text-align: center;
+    width: 214px;
+    height: 60px;
+}
+
+.principal {
+    background-color: rgb(197, 197, 197);
+    padding: 80px;
+    margin-bottom: 16px;
+    border: 2px solid #000000;
+    font-family: 'Bakbak One', cursive;
+    font-size: 50px;
+    margin: 10px 200px 10px 70px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.segundo {
+    background-color: rgb(197, 197, 197);
+    padding: 50px;
+    margin-bottom: 16px;
+    border: 2px solid #000000;
+    font-family: 'Bakbak One', cursive;
+    font-size: 30px;
+    margin-left: 70px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.final {
+    background-color: rgb(197, 197, 197);
+    padding: 20px;
+    margin-bottom: 16px;
+    border: 2px solid #000000;
+    font-family: 'Bakbak One', cursive;
+    font-size: 20px;
+    margin-left: 70px;
+    border-radius: 20px;
+}
+
+.Palabra-perfil{
+    font-size: 40px;
+    margin-left: 70px;
+}
+
+.botons {
+    width: 100%;
+    background-color: #0744c9;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 25px;
+    font-family: 'Bakbak One', cursive;
+    border-radius: 20px;
+}
+
+
+.perfil-foto{
+    justify-content: space-between;
+    height: 250px;
+    width: 250px;
+    position: relative;
+    top: 5%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid grey;
+}
+
+#photo{
+    height: 100%;
+    width: 100%;
+}
+
+#file{
+    display: none;
+}
+
+#uploadBtn{
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    color: rgb(255, 255, 255);
+    line-height: 30px;
+    font-family: sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    display: none;
+}
+
+.logo-nombre{
+    color: white;
+    font-family: 'Bakbak One', cursive;
+    font-weight: 500px;
+    font-size: 40px;
+}
+
+h3{
+    color: white;
+    font-weight: 500px;
+    font-size: 30px;
+}
+
+.costado{
+    color: white;
+    font-size: 20px;
+}
+
+.info{
+    color: white;
+    font-size: 20px;
+}
+
+.masinfo{
+    color: black;
+    font-size: 40px;
+    margin-left: 70px;
+}
+
+.info2{
+    margin-left: 80px;
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+    background-color: brown;
+    color: white;
+    font-family: 'Bakbak One', cursive;
+    font-weight: 500px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 700px){
+    nav, .row{
+        flex-direction: column;
+    }
+}
+

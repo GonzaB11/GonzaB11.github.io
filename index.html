@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Crea tu CV </title>
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/6614/6614677.png">
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Roboto:wght@100&family=Rowdies:wght@300;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Roboto:wght@100&family=Rowdies:wght@300;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <form action="" method="post">
+    <header>
+      <div class="logo">
+        <h1 class="logo-nombre">Currículum Vitae</h1>
+        <img src="imagenes/logo.png" alt="Logo de la página" class="logo-img">
+      </div>
+      <nav>
+        <a href="https://www.instagram.com/gonza_benitez/" class="nav-link">Contacto</a>
+      </nav>
+    </header>
+
+    <div class="informacion">
+      <aside>
+        <h3><u>Información personal</u></h3>
+          <form action="" method="post">
+            <label class="info">Fecha de nacimiento:</label>
+            <input class="formulario" type="date" id="start" name="trip-start" value="" min="1940-01-01" max="2006-1-1" />
+            <label class="info">Nacionalidad:</label>
+            <input class="formulario" type="text" name="nacionalidad" placeholder="Ingrese su nacionalidad"/>
+            <label class="info">Estado civil:</label>
+            <input class="formulario" type="text" name="estado civil" placeholder="Ingrese su estado civil"/>
+          </form>
+        <h3><u>Contacto</u></h3>
+        <form class="costado" action="" method="post">
+          <img src="imagenes/email.png" alt="imagen correo" class="imagen-correo">
+          <label>E-Mail:</label>
+          <input class="formulario" type="email" name="email" placeholder="Ingrese su email"/>
+          <img src="imagenes/celular.png" alt="imagen celular" class="imagen-celular">
+          <label>Telefóno:</label>
+          <input class="formulario" type="tel" name="telefóno" placeholder="(Código de área) Número"/>
+          <img src="imagenes/ubicacion.png" alt="imagen ubicacion" class="imagen-ubicacion">
+          <label>Ubicación:</label>
+          <input class="formulario" type="text" name="ubicación" placeholder="Ingrese su ubicación"/>
+        </form>
+        <h3><u>Educación</u></h3>
+        <form class="costado" action="" method="post">
+          <label>Escuela primaria/secundaria:</label>
+          <input class="formulario" type="text" name="escuela primaria/secundaria" placeholder="Ingrese el nombre de su escuela"/>
+          <label>Universidad:</label>
+          <input class="formulario" type="text" name="universidad" placeholder="Ingrese el nombre de su universidad"/>
+        </form>
+      </aside>
+      <section>
+        <div class="perfil-foto">
+          <img src="imagenes/usuario.png" id="photo">
+          <input type="file" id="file">
+          <label for="file" id="uploadBtn">Elegir foto</label>
+        </div>
+      <script src="app.js"></script>
+        <form action="" method="post">
+            <h2><input class="principal" type="text" name="nombre" placeholder="Ingrese su nombre" style="width: 700px; height: 100px;"/></h2>
+            <h3><input class="segundo" type="text" name="ocupación" placeholder="Ingrese su ocupación" style="width: 400px; height: 80px;"/></h3>
+        </form>
+        <h4 class="masinfo"><u>Experiencia</u></h4>
+        <form class="info2" action="" method="post">
+          <h4><li><input class="formulario" type="text" name="experiencia" placeholder="Ingrese su experiencia"/></li></h4>
+          <h4><li><input class="formulario" type="text" name="experiencia" placeholder="Ingrese su experiencia"/></li></h4>
+          <h4><li><input class="formulario" type="text" name="experiencia" placeholder="Ingrese su experiencia"/></li></h4>
+          <h4><li><input class="formulario" type="text" name="experiencia" placeholder="Ingrese su experiencia"/></li></h4>
+          <h4><li><input class="formulario" type="text" name="experiencia" placeholder="Ingrese su experiencia"/></li></h4>
+        </form>
+        <h4 class="masinfo"><u>Habilidades</u></h4>
+        <form class="info2" action="" method="post">
+          <h4><li><input class="formulario" type="text" name="experiencia" placeholder="Ingrese sus habilidades"/></li></h4>
+          <h4><li><input class="formulario" type="text" name="experiencia" placeholder="Ingrese sus habilidades"/></li></h4>
+          <h4><li><input class="formulario" type="text" name="experiencia" placeholder="Ingrese sus habilidades"/></li></h4>
+          <h4><li><input class="formulario" type="text" name="experiencia" placeholder="Ingrese sus habilidades"/></li></h4>
+          <h4><li><input class="formulario" type="text" name="experiencia" placeholder="Ingrese sus habilidades"/></li></h4>
+        </form>
+        <h4 class="Palabra-perfil"><u>Perfil</u></h4>
+        <p><textarea class="final" name="perfil" rows="5" cols="50" style="width: 800px; height: 300px;" placeholder="Escriba su perfil aqui:"></textarea></style></p>
+        <input class="botons" type="submit" value="Enviar"/>
+      </section>
+    </div>
+  </form>
+
+   
+    
+    <footer>
+        <address>
+          Autor: Gonzalo Leonel Benitez<br>
+          Correo: gonza.benitez532@gmail.com
+        </address>
+        <p>Última modificación: 14 de enero de 2023</p>
+    </footer>
+
+      
+</body>
+</html>
