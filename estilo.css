@@ -55,35 +55,24 @@ nav a:hover{
 
 .imagen-correo{
     height: 40px;
-    margin-left: 10px;
+    margin-left: 30px;
 }
 
 .imagen-celular{
     height: 40px;
-    margin-left: 10px;
+    margin-left: 25px;
 }
 
 .imagen-ubicacion{
     height: 40px;
-    margin-left: 10px;
+    margin-left: 25px;
 }
-
-
-.informacion{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-aside{
-    flex: 30px;
-    background-color: #23588a;
-    padding: 140px;
-}
-
 section{
+    justify-content: space-between;
     flex: 20%;
     background-color: #dadada;
     padding: 20px;
+    text-align: justify;
 }
 
 .formulario {
@@ -94,7 +83,7 @@ section{
     font-family: 'Bakbak One', cursive;
     font-size: 18px;
     margin-top: 5px;
-    border-radius: 10px;
+    border-radius: 20px;
     text-align: center;
     width: 214px;
     height: 60px;
@@ -108,7 +97,7 @@ section{
     font-family: 'Bakbak One', cursive;
     font-size: 50px;
     margin: 10px 200px 10px 70px;
-    border-radius: 30px;
+    border-radius: 40px;
     text-align: center;
 }
 
@@ -119,8 +108,8 @@ section{
     border: 2px solid #000000;
     font-family: 'Bakbak One', cursive;
     font-size: 30px;
-    margin-left: 70px;
-    border-radius: 20px;
+    margin-left: 5px;
+    border-radius: 40px;
     text-align: center;
 }
 
@@ -132,7 +121,7 @@ section{
     font-family: 'Bakbak One', cursive;
     font-size: 20px;
     margin-left: 70px;
-    border-radius: 20px;
+    border-radius: 30px;
 }
 
 .Palabra-perfil{
@@ -149,7 +138,7 @@ section{
     margin: 16px 0;
     font-size: 25px;
     font-family: 'Bakbak One', cursive;
-    border-radius: 20px;
+    border-radius: 30px;
 }
 
 
@@ -157,9 +146,9 @@ section{
     justify-content: space-between;
     height: 250px;
     width: 250px;
-    position: relative;
-    top: 5%;
-    left: 40%;
+    position: absolute;
+    top: 35%;
+    left: 70%;
     transform: translate(-50%,-50%);
     border-radius: 50%;
     overflow: hidden;
@@ -200,29 +189,64 @@ section{
 }
 
 h3{
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: 500px;
     font-size: 30px;
+    margin-left: 70px;
+    font-family: 'Bakbak One', cursive;
 }
 
 .costado{
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 20px;
+    margin-left: 70px;
+    font-family: 'Bakbak One', cursive;
+}
+
+.cuadro{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Bakbak One', cursive;
+    padding-left: 20px;
+    margin-right: 20px;
+    justify-content: space-between;
 }
 
 .info{
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 20px;
+    margin-left: 70px;
+    margin-right: 20px;
+    font-family: 'Bakbak One', cursive;
+}
+
+.info3{
+    margin-left: 0px;
+    margin-right: 20px;
+    font-family: 'Bakbak One', cursive;
+}
+
+.info4{
+    margin-left: 0px;
+    margin-right: 28px;
+    font-family: 'Bakbak One', cursive;
+}
+
+.info5{
+    margin-left: 30px;
+    margin-right: 20px;
+    font-family: 'Bakbak One', cursive;
 }
 
 .masinfo{
     color: black;
     font-size: 40px;
     margin-left: 70px;
+    font-family: 'Bakbak One', cursive;
 }
 
 .info2{
     margin-left: 80px;
+    font-family: 'Bakbak One', cursive;
 }
 
 footer{

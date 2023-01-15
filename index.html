@@ -22,8 +22,12 @@
       </nav>
     </header>
 
-    <div class="informacion">
-      <aside>
+      <section>
+        <form action="" method="post">
+          <h2><input class="principal" type="text" name="nombre" placeholder="Ingrese su nombre" style="width: 620px; height: 100px;"/></h2>
+          <h3><input class="segundo" type="text" name="ocupación" placeholder="Ingrese su ocupación" style="width: 400px; height: 80px;"/></h3>
+      </form>
+      <div class="cuadro">
         <h3><u>Información personal</u></h3>
           <form action="" method="post">
             <label class="info">Fecha de nacimiento:</label>
@@ -36,34 +40,29 @@
         <h3><u>Contacto</u></h3>
         <form class="costado" action="" method="post">
           <img src="imagenes/email.png" alt="imagen correo" class="imagen-correo">
-          <label>E-Mail:</label>
+          <label class="info3">E-Mail:</label>
           <input class="formulario" type="email" name="email" placeholder="Ingrese su email"/>
           <img src="imagenes/celular.png" alt="imagen celular" class="imagen-celular">
-          <label>Telefóno:</label>
+          <label class="info3">Telefóno:</label>
           <input class="formulario" type="tel" name="telefóno" placeholder="(Código de área) Número"/>
           <img src="imagenes/ubicacion.png" alt="imagen ubicacion" class="imagen-ubicacion">
-          <label>Ubicación:</label>
+          <label class="info3">Ubicación:</label>
           <input class="formulario" type="text" name="ubicación" placeholder="Ingrese su ubicación"/>
         </form>
         <h3><u>Educación</u></h3>
         <form class="costado" action="" method="post">
-          <label>Escuela primaria/secundaria:</label>
+          <label class="info4">Escuela primaria/secundaria:</label>
           <input class="formulario" type="text" name="escuela primaria/secundaria" placeholder="Ingrese el nombre de su escuela"/>
-          <label>Universidad:</label>
+          <label class="info5">Universidad:</label>
           <input class="formulario" type="text" name="universidad" placeholder="Ingrese el nombre de su universidad"/>
         </form>
-      </aside>
-      <section>
+      </div>  
         <div class="perfil-foto">
           <img src="imagenes/usuario.png" id="photo">
           <input type="file" id="file">
           <label for="file" id="uploadBtn">Elegir foto</label>
         </div>
       <script src="app.js"></script>
-        <form action="" method="post">
-            <h2><input class="principal" type="text" name="nombre" placeholder="Ingrese su nombre" style="width: 700px; height: 100px;"/></h2>
-            <h3><input class="segundo" type="text" name="ocupación" placeholder="Ingrese su ocupación" style="width: 400px; height: 80px;"/></h3>
-        </form>
         <h4 class="masinfo"><u>Experiencia</u></h4>
         <form class="info2" action="" method="post">
           <h4><li><input class="formulario" type="text" name="experiencia" placeholder="Ingrese su experiencia"/></li></h4>
@@ -81,7 +80,7 @@
           <h4><li><input class="formulario" type="text" name="experiencia" placeholder="Ingrese sus habilidades"/></li></h4>
         </form>
         <h4 class="Palabra-perfil"><u>Perfil</u></h4>
-        <p><textarea class="final" name="perfil" rows="5" cols="50" style="width: 800px; height: 300px;" placeholder="Escriba su perfil aqui:"></textarea></style></p>
+        <p><textarea class="final" name="perfil" rows="5" cols="50" style="width: 670px; height: 300px;" placeholder="Escriba su perfil aqui:"></textarea></style></p>
         <input class="botons" type="submit" value="Enviar"/>
       </section>
     </div>
