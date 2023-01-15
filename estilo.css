@@ -4,7 +4,7 @@
 
 body {
     font-family: sans-serif;
-    margin: 10px 160px 10px 160px;
+    margin: 50px 280px 50px 280px;
     padding: 5px;
     font-family: 'Bakbak One', cursive;
     background: url(imagenes/playa.jpg) no-repeat;
@@ -75,13 +75,13 @@ nav a:hover{
 }
 
 aside{
-    flex: 50px;
+    flex: 30px;
     background-color: #23588a;
-    padding: 160px;
+    padding: 140px;
 }
 
 section{
-    flex: 70%;
+    flex: 20%;
     background-color: #dadada;
     padding: 20px;
 }
@@ -237,7 +237,7 @@ footer{
 
 @media screen and (max-width: 700px){
     nav, .row{
-        flex-direction: column;
+        flex-direction: inherit;
     }
 }
 
