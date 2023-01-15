@@ -144,8 +144,8 @@ section{
 
 .perfil-foto{
     justify-content: space-between;
-    height: 250px;
-    width: 250px;
+    height: 180px;
+    width: 180px;
     position: absolute;
     top: 35%;
     left: 70%;
@@ -213,7 +213,7 @@ h3{
 
 .info{
     color: rgb(0, 0, 0);
-    font-size: 20px;
+    font-size: 15px;
     margin-left: 70px;
     margin-right: 20px;
     font-family: 'Bakbak One', cursive;
@@ -223,15 +223,18 @@ h3{
     margin-left: 0px;
     margin-right: 20px;
     font-family: 'Bakbak One', cursive;
+    font-size: 15px;
 }
 
 .info4{
+    font-size: 15px;
     margin-left: 0px;
     margin-right: 28px;
     font-family: 'Bakbak One', cursive;
 }
 
 .info5{
+    font-size: 15px;
     margin-left: 30px;
     margin-right: 20px;
     font-family: 'Bakbak One', cursive;
