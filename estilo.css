@@ -147,7 +147,7 @@ section{
     height: 180px;
     width: 180px;
     position: absolute;
-    top: 35%;
+    top: 40%;
     left: 70%;
     transform: translate(-50%,-50%);
     border-radius: 50%;
@@ -191,14 +191,14 @@ section{
 h3{
     color: rgb(0, 0, 0);
     font-weight: 500px;
-    font-size: 30px;
+    font-size: 20px;
     margin-left: 70px;
     font-family: 'Bakbak One', cursive;
 }
 
 .costado{
     color: rgb(0, 0, 0);
-    font-size: 20px;
+    font-size: 15px;
     margin-left: 70px;
     font-family: 'Bakbak One', cursive;
 }
@@ -206,6 +206,7 @@ h3{
 .cuadro{
     background-color: rgb(255, 255, 255);
     font-family: 'Bakbak One', cursive;
+    margin: 10px;
     padding-left: 20px;
     margin-right: 20px;
     justify-content: space-between;
@@ -215,13 +216,13 @@ h3{
     color: rgb(0, 0, 0);
     font-size: 15px;
     margin-left: 70px;
-    margin-right: 20px;
+    margin-right: 5px;
     font-family: 'Bakbak One', cursive;
 }
 
 .info3{
     margin-left: 0px;
-    margin-right: 20px;
+    margin-right: 10px;
     font-family: 'Bakbak One', cursive;
     font-size: 15px;
 }
